@@ -137,7 +137,7 @@
         }
         case iCarouselTranformOptionRadius:
         {
-            return value * 1.8; //radiusSlider.value;
+            return value * 2.2; //radiusSlider.value;
         }
         case iCarouselTranformOptionTilt:
         {
@@ -145,7 +145,7 @@
         }
         case iCarouselTranformOptionSpacing:
         {
-            return 0.9; //spacingSlider.value;
+            return 1.5; //spacingSlider.value;
         }
         default:
         {
