@@ -127,23 +127,23 @@
     return CATransform3DTranslate(transform, 0.0f, 0.0f, offset * _iCarouselView.itemWidth);
 }
 
-- (CGFloat)carousel:(iCarousel *)carousel valueForTransformOption:(iCarouselTranformOption)option withDefault:(CGFloat)value
+- (CGFloat)carousel:(iCarousel *)carousel valueForTransformOption:(iCarouselOption)option withDefault:(CGFloat)value
 {
     switch (option)
     {
-        case iCarouselTranformOptionArc:
+        case iCarouselOptionArc:
         {
             return 2 * M_PI * 0.8; //arcSlider.value;
         }
-        case iCarouselTranformOptionRadius:
+        case iCarouselOptionRadius:
         {
             return value * 2.2; //radiusSlider.value;
         }
-        case iCarouselTranformOptionTilt:
+        case iCarouselOptionTilt:
         {
             return 0.9; //tiltSlider.value;
         }
-        case iCarouselTranformOptionSpacing:
+        case iCarouselOptionSpacing:
         {
             return 1.5; //spacingSlider.value;
         }
