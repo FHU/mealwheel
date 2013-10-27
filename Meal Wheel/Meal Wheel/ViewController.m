@@ -12,7 +12,7 @@
 
 #define NUMBER_OF_ITEMS (IS_IPAD? 19: 12)
 #define NUMBER_OF_VISIBLE_ITEMS 25
-#define ITEM_SPACING 210.0f
+#define ITEM_SPACING 400.0f
 #define INCLUDE_PLACEHOLDERS YES
 
 @interface ViewController ()
@@ -72,7 +72,7 @@
 	}
 	
     //set label
-	label.text = [NSString stringWithFormat:@"%i", index];
+	//label.text = [NSString stringWithFormat:@"%i", index];
 	
 	return view;
 }
