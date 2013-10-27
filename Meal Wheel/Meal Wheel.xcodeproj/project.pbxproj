@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443AA1DE181DBEF200EB451E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 443AA1DD181DBEF200EB451E /* 2.jpg */; };
+		443AA1E4181DC01B00EB451E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 443AA1E3181DC01B00EB451E /* 1.jpg */; };
 		FD638D8F1811CC7200B07D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD638D8E1811CC7200B07D0A /* Foundation.framework */; };
 		FD638D911811CC7200B07D0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD638D901811CC7200B07D0A /* CoreGraphics.framework */; };
 		FD638D931811CC7200B07D0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD638D921811CC7200B07D0A /* UIKit.framework */; };
@@ -26,9 +28,7 @@
 		FD638DE21811D99B00B07D0A /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD638DDB1811D99B00B07D0A /* 4.jpg */; };
 		FD638DE31811D99B00B07D0A /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD638DDC1811D99B00B07D0A /* 5.jpg */; };
 		FD638DE41811D99B00B07D0A /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD638DDD1811D99B00B07D0A /* 6.jpg */; };
-		FD638DE51811D99B00B07D0A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD638DDE1811D99B00B07D0A /* 2.jpg */; };
 		FD638DE61811D99B00B07D0A /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD638DDF1811D99B00B07D0A /* 3.jpg */; };
-		FD638DE71811D99B00B07D0A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD638DE01811D99B00B07D0A /* 1.jpg */; };
 		FD638DE81811D99B00B07D0A /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD638DE11811D99B00B07D0A /* 7.jpg */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		443AA1DD181DBEF200EB451E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		443AA1E3181DC01B00EB451E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		FD638D8B1811CC7200B07D0A /* Meal Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD638D8E1811CC7200B07D0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FD638D901811CC7200B07D0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,9 +70,7 @@
 		FD638DDB1811D99B00B07D0A /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		FD638DDC1811D99B00B07D0A /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		FD638DDD1811D99B00B07D0A /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
-		FD638DDE1811D99B00B07D0A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		FD638DDF1811D99B00B07D0A /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
-		FD638DE01811D99B00B07D0A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		FD638DE11811D99B00B07D0A /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,12 +197,12 @@
 		FD638DCA1811D42100B07D0A /* images */ = {
 			isa = PBXGroup;
 			children = (
+				443AA1E3181DC01B00EB451E /* 1.jpg */,
+				443AA1DD181DBEF200EB451E /* 2.jpg */,
 				FD638DDB1811D99B00B07D0A /* 4.jpg */,
 				FD638DDC1811D99B00B07D0A /* 5.jpg */,
 				FD638DDD1811D99B00B07D0A /* 6.jpg */,
-				FD638DDE1811D99B00B07D0A /* 2.jpg */,
 				FD638DDF1811D99B00B07D0A /* 3.jpg */,
-				FD638DE01811D99B00B07D0A /* 1.jpg */,
 				FD638DE11811D99B00B07D0A /* 7.jpg */,
 			);
 			path = images;
@@ -284,16 +284,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443AA1DE181DBEF200EB451E /* 2.jpg in Resources */,
 				FD638DE41811D99B00B07D0A /* 6.jpg in Resources */,
 				FD638DE21811D99B00B07D0A /* 4.jpg in Resources */,
-				FD638DE51811D99B00B07D0A /* 2.jpg in Resources */,
 				FD638DE31811D99B00B07D0A /* 5.jpg in Resources */,
 				FD638DA71811CC7300B07D0A /* Images.xcassets in Resources */,
 				FD638D991811CC7200B07D0A /* InfoPlist.strings in Resources */,
-				FD638DE71811D99B00B07D0A /* 1.jpg in Resources */,
 				FD638DE81811D99B00B07D0A /* 7.jpg in Resources */,
 				FD638DA21811CC7300B07D0A /* Main.storyboard in Resources */,
 				FD638DE61811D99B00B07D0A /* 3.jpg in Resources */,
+				443AA1E4181DC01B00EB451E /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +524,7 @@
 				FD638DBF1811CC7300B07D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD638DC01811CC7300B07D0A /* Build configuration list for PBXNativeTarget "Meal WheelTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +533,7 @@
 				FD638DC21811CC7300B07D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
