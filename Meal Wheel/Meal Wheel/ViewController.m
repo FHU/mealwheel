@@ -12,7 +12,7 @@
 
 #define NUMBER_OF_ITEMS (IS_IPAD? 19: 12)
 #define NUMBER_OF_VISIBLE_ITEMS 25
-#define ITEM_SPACING 340.0f
+#define ITEM_SPACING 360.0f
 #define INCLUDE_PLACEHOLDERS YES
 
 @interface ViewController ()
@@ -42,7 +42,7 @@
 
 - (NSUInteger)numberOfItemsInCarousel:(iCarousel *)carousel
 {
-    return 16;
+    return 18;
 }
 
 - (NSUInteger)numberOfVisibleItemsInCarousel:(iCarousel *)carousel
