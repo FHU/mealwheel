@@ -38,6 +38,7 @@
         UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 40, 100, 100)];
         imageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
         imageView.image = [UIImage imageNamed:@"Thumbs-Up-256"];
+        imageView.backgroundColor = [UIColor colorWithRed:226/255.0f green:122/255.0f blue:63/255.0f alpha:1.0f];
         imageView.layer.masksToBounds = YES;
         imageView.layer.cornerRadius = 50.0;
         //imageView.layer.borderColor = [UIColor whiteColor].CGColor;
