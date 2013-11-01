@@ -13,6 +13,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // Customize Navbar across the app
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor], NSForegroundColorAttributeName, [UIFont fontWithName:@"HelveticaNeue" size:20], NSFontAttributeName, nil]];
+    
+    [[UINavigationBar appearance] setTintAdjustmentMode:UIViewTintAdjustmentModeAutomatic];
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:226/255.0f green:122/255.0f blue:63/255.0f alpha:1.0f]];
+    
+    //[[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:226/255.0f green:122/255.0f blue:63/255.0f alpha:1.0f]];
+    
+    // flat red #DF5A49 | R: 223 G: 90 B: 73
+    // flat orange #E27A3F | R: 226 G: 122 B: 63
+    // bright orange-red #FF3600 | R: 255 G: 54 B: 0
+    
+    
     return YES; 
 }
 							

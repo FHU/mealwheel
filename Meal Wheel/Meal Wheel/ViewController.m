@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "FilterViewController.h"
+#import "VoteViewController.h"
 
 #define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 
@@ -39,6 +41,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)showFilterMenu:(id)sender
+{
+    NSLog(@"Show Filter");
+    self.frostedViewController.menuViewController = [[FilterViewController alloc] initWithNibName:@"FilterViewController" bundle:nil];
+    
+    self.frostedViewController.direction = REFrostedViewControllerDirectionLeft;
+    
+    [self.frostedViewController presentMenuViewController];
+}
+
+-(IBAction)showVoteMenu:(id)sender
+{
+    NSLog(@"Show Menu");
+    
+    self.frostedViewController.menuViewController = [[VoteViewController alloc] initWithNibName:@"FilterViewController" bundle:nil];
+    
+    self.frostedViewController.direction = REFrostedViewControllerDirectionRight;
+    
+    [self.frostedViewController presentMenuViewController];
+}
 
 - (NSUInteger)numberOfItemsInCarousel:(iCarousel *)carousel
 {
